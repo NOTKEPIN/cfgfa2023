@@ -1,0 +1,12 @@
+p {
+    font-size: 48px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 3px;
+    height: 100px;
+    background-color:lightblue;
+    margin-top:0cm;
+    margin-bottom: 0.2cm;
+    line-height: 100px;
+    text-align:center;
+}
