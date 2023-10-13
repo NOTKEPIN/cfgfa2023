@@ -4,9 +4,18 @@
     border-color: #000000;
     border-width: 3px;
     height: 100px;
-    background-color:lightblue;
+    background-color:white;
     margin-top:0cm;
     margin-bottom: 0.2cm;
     line-height: 100px;
     text-align:center;
+}
+.desc {
+    font-size: 24px;
+    height: 70px;
+    margin-top:0cm;
+    margin-bottom: 0cm;
+    line-height: 30px;
+    text-align:center;
+    padding: 10px;
 }
