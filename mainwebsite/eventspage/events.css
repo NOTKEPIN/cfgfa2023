@@ -1,15 +1,17 @@
 .header {
     font-size: 48px;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 3px;
-    height: 100px;
-    background-color:white;
-    margin-top:0cm;
-    margin-bottom: 0.2cm;
-    line-height: 100px;
+    height: 300px;
+    background-color:#FFD000;
+    margin: 0;
+
     text-align:center;
+    line-height: 300px;
+    font-family: ‘Asap’, sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: 0em;
 }
+
 .desc {
     font-size: 24px;
     height: 70px;
@@ -18,12 +20,32 @@
     line-height: 30px;
     text-align:center;
     padding: 10px;
+    font-family: ‘Asap’, sans-serif;
+    letter-spacing: 0em;
 }
-.upcoming {
-    text-align:center;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 3px;
+.wrapper {
+    margin:0;
+}
+.calendar {
+    float:left;
+    width: 70%;
+    overflow: hidden;
+}
+.infobox {
+    float:left;
+    width: 30%;
+    overflow: hidden;
+    
+}
+.info {
+    padding-top:1px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:10px;
+    text-align:left;
     font-size: 20px;
     background-color:white;
+    height: 636px;
+    font-family: ‘Asap’, sans-serif;
+    letter-spacing: 0em;
 }
