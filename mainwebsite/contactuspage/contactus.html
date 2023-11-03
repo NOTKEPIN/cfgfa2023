@@ -4,13 +4,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="stylesheet" href="contactus.css" />
 </head>
 
 <body>
-
+  <header>
+    <div id="nav-placeholder"></div>
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("homepage/nav.html");
+        });
+        </script>
+  </header>
   <div id="contact-title">
     <div id="contact-title-overlay">
       <div id="contact-title-box">
@@ -70,7 +76,7 @@
 
 
   <script src="contactus.js"></script>
-
+  <script src="index.js"></script>
 </body>
 
 </html>

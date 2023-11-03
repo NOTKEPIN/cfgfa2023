@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div id="nav-placeholder"></div>
+            <script>
+            $(function(){
+            $("#nav-placeholder").load("homepage/nav.html");
+            });
+            </script>
+    </header>
     <div class="about-section">
         <span>ABOUT US</span>
         <img src= "https://everestautomotivemarket.com/images/detailed/790/efe49f.png">
@@ -67,6 +76,6 @@
     <nav>
         <div class="logo"></div>
     </nav>
-    <script src="aboutus.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

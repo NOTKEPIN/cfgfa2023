@@ -3,27 +3,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <div class="navbar">
-        <div class="navbar-left">
-            <a href="home.html" className="logo"><img src="..." alt="Logo"></a>
-            <a href="home.html" className ="title"> Strength N Me </a>
-        </div>
-        <div class="menu">
-            <button class="menu-button" id="navbar-toggle">&#9776;</button>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutuspage/aboutus.html">About Us</a></li>
-                <li><a href="fundraiserpage/fundraiser.html">Store</a></li>
-                <li><a href="eventspage/events.html">Events</a></li>
-                <li><a href="contactuspage/contactus.html">Contact Us</a></li>
-            </ul>
-        </div>
+    <header>
+        <div id="nav-placeholder"></div>
+            <script>
+            $(function(){
+            $("#nav-placeholder").load("homepage/nav.html");
+            });
+            </script>
+    </header>
+    <div class="hero">
+        <h1>STRENGTH 'N ME</h1>
+        <h3>COMMUNITY PROJECT</h3>
     </div>
-
-    <div class="content">
-        <!-- page content goes here -->
+    <div class="mission">
+        <h2> MISSION</h2>
+        <p> To partner with those feeling discouraged, depleted, 
+            downtrodden, disadvantaged, or destitute; helping shoulder 
+            the weight of life’s struggles in today’s world.</p>
+    </div>
+    <div class="team">
+        <h2> OUR TEAM </h2>
+        <section>
+            <p>Content Here</p>
+        </section>
+    </div>
+    <div class="testimonials">
+        <h2> TESTIMONIALS </h2>
+        <div class="stat">
+            <h3>Since 2021, SNM has received over $500,000 in goods that have been distributed throughout the Bay Area.</h3>
+        </div>
+        <div class="testimonials-wrapper">
+            <div class="testimonials-list-item">
+                <p class="name">Alham B., his wife, and 2 children have only been in the U.S. for 2 months.
+                    Alham B. stated:</p>
+                <p><em>“This is such a blessing. We were forced to leave our home in Eastern Europe 
+                    and settle here in Antioch with very few belongings. I came to the event hoping 
+                    to get some help for my children and my family is leaving with new shoes and clothes. 
+                    Thank you, we are truly grateful.”</em></p>
+            </div>
+            <div class="testimonials-list-item">
+                <p class="name">Erica C., a single mother of 7 children:</p>
+                <p><em>“We came here to see what this event was about, and I was shocked to see what 
+                    was offered and to see that you have items for everyone in my family. It was amazing. 
+                    Buying shoes and clothes for my older kids is expensive and I can’t always get them 
+                    new things at the same time. I was fortunate enough to find really nice new men and 
+                    women sizes that they liked and that were in the sizes that I needed. 
+                    Thank you for having this event.”</em></p>
+            </div>
+            <div class="testimonials-list-item">
+                <p class="name">Jessica D. is a wife and mother of 4 children who cannot afford to pay for their youngest child's childcare. 
+                    She is the sole breadwinner in her household and struggles to provide for her kids. 
+                    SNM asked how receiving new shoes for everyone in her family would make a difference. She responded:</p>
+                <p><em>“Thank you, thank you, thank you. My youngest son who is 3 years old was wearing shoes 
+                    that were too small and he is walking out of this event with a new pair of shoes and socks 
+                    that are the right size. It's really overwhelming in here with how much you have to offer. 
+                    Waking up every day praying for help and not knowing my help was in this building is truly a blessing. 
+                    Thank you all for having this event.”</em></p>
+            </div>
+    </div>
+    <div class="programs">
+        <h2> CURRENT PROGRAMS</h2>
+        <section class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="image1.jpg" alt="Image 1">
+                        <div class="left">
+                            <div class="carousel-program">Let's Do It Again</div>
+                            <div class="carousel-description">
+                                Let's Do It Again supports men ages 18 and up. 
+                                Whether the men are re-entering society from incarceration, homelessness, or struggling with 
+                                issues in everyday life. Services include job readiness/training and job referrals, etiquette and 
+                                grooming classes, grooming care kits, free clothing and shoes for everyday wear and interview and 
+                                work attire. We also offer parenting classes and peer group sessions to support our participants                                 in voicing concerns, sharing their fears and insecurities, celebrating each new victory, and 
+                                encouraging them to perservere when things do not go as planned. </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image2.jpg" alt="Image 2">
+                        <div class="left">
+                            <div class="carousel-program">Hi, Remember Me?</div>
+                            <div class="carousel-description">
+                            Hi, Remember Me? focuses on helping youth participants ages 11-18 who feel forgotten or 
+                            stigmatized by negative protrayals. We help them understand how they show up in today's 
+                            world and empowering them to become who they are meant to be inthe future. This is done 
+                            through group sessions with like-minded youth who want to work to change the narrative. 
+                            We bring guest speakers who share life stories and encourage the youths to be change 
+                            agents for the future. We also teach etiquette classes, budgeting and basic financial 
+                            literacy, grooming, and cooking classes. </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image3.jpg" alt="Image 3">
+                        <div class="left">
+                        <div class="carousel-program">Refresh 'N Renew Program</div>
+                        <div class="carousel-description">Refresh 'N Renew offers 6 Community Giveaways throughout 
+                            the year culminating in our Holiday Giveaway in the month of December for the entire family. 
+                            Available items include free clothing, shoes, home items including beds and bedding, decor, furniture. 
+                            Based on availability, kitchenware, health and beauty products, accessories, and baby items.</div>
+                        </div>
+                     </div>
+                </div>
+                <a class="prev" href="javascript:void(0);" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" href="javascript:void(0);" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+        </section>
     </div>
 
     <script src="index.js"></script>

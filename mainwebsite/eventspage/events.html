@@ -6,8 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="events.css">
     <link href=“https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap” rel=“stylesheet”>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body bgcolor="FFFFFF">
+    <header>
+        <div id="nav-placeholder"></div>
+            <script>
+            $(function(){
+            $("#nav-placeholder").load("homepage/nav.html");
+            });
+            </script>
+    </header>
+
     <p class="header"> EVENTS </p>
     <p class="desc"> Welcome to the Strength 'N Me Events page! <br> Click an event below to see its description and registration link. </p>
 
@@ -31,5 +41,6 @@
         </div>
     </div>
     <script src="events.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
