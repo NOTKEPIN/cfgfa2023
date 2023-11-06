@@ -1,4 +1,15 @@
-h1 {
+
+.section1 {
+  font-family: 'Asap', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 400;
+  }
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFD000;
   font-family: 'Asap', sans-serif;
   font-size: 96px;
   font-weight: 700;
@@ -6,26 +17,6 @@ h1 {
   letter-spacing: 0em;
   text-align: center; 
   }
-h2 {
-  font-family: 'Asap', sans-serif;
-  font-size: 48px;
-  text-align: center;
-  font-weight: 400;
-  }
-span {
-    font-family: 'Asap', sans-serif;
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 110px;
-    letter-spacing: 0em;
-    text-align: center; 
-    }
-.about-section {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #FFD000
-}
 .about-info{
   text-align: center;
 }
@@ -38,7 +29,7 @@ hr {
   margin-left: auto;  
   margin-top: 9px;    
   }  
-p {
+.description1 {
   font-family: 'Asap', sans-serif;
   font-size: 160%;
   font-weight: 400;
@@ -52,9 +43,36 @@ p {
   z-index: 2;
   position: relative;
 }
+.disclaimer {
+  font-family: 'Asap', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 400;
+  }
+.description2 {
+  font-family: 'Asap', sans-serif;
+  font-size: 160%;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0em;
+  text-align: center;
+  }  
 .address {
+  font-family: 'Asap', sans-serif;
+  font-size: 160%;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0em;
   text-align: left;
 }
+.contact {
+  font-family: 'Asap', sans-serif;
+  font-size: 160%;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0em;
+  text-align: center;
+  }
 .no-margin {
   margin-right: 0;
   margin-left: 0;
