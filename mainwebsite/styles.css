@@ -15,7 +15,7 @@ nav {
   font-style: normal;
   font-size: 19px;
   font-weight: 400;
-  padding: 15px 20px 15px 20px;
+  padding: 20px;
 }
 
 nav a {
@@ -24,6 +24,7 @@ nav a {
   align-items: center;
   padding: 0.25rem;
   color: black;
+  padding-right: 10px;
 }
 
 .logo img {
@@ -106,7 +107,7 @@ nav a {
   transform: rotate(-405deg);
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 940px) {
   .menu-button-container {
     display: flex;
   }
@@ -151,28 +152,38 @@ nav a {
 
   .nav-links > li:not(:last-child) {
     border-bottom: 1px solid #ffffff; }
-
   }
 
-
 .hero {
-  text-align: left;
   background-color:#ffe780;
-  padding: 100px;
+  padding: 130px;
+  height: 150
 }
 
 .hero h1 {
-  font-size: 40px;
-  padding-left: 35px;
+  font-size: 52px;
+  padding-right: 70px;
   margin-top: 40;
 }
 
 .hero h3 {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 400;
-  padding-left: 65px;
+  padding-right: 100px;
   margin-top: -20;
   margin-bottom: 65;
+}
+
+.text {
+  text-align: right;
+  position: relative;
+  bottom: 420;
+}
+
+.hero img {
+  width: 350px;
+  position: relative;
+  bottom: 140;
 }
 
 .mission {
@@ -303,8 +314,9 @@ nav a {
 .testimonials-list-item {
   text-align: center;
   width: 400px;
+  height: 100%;
   border: 2px solid #8280ff;
-  padding: 25px;
+  padding: 50px;
   border-radius: 10px;
 }
 
