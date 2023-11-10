@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <title>Strength 'N Me</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -13,10 +15,11 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/fundraiser.css" rel="stylesheet" />
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="stylesheet" href="../navtest.css">
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container" align="left" style="margin-left: 0px;">
                 <a class="navbar-brand" href="#!">Strength 'N Me</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -28,9 +31,26 @@
                     </ul>
                 </div>
             </div>
+        </nav>-->
+        <nav>
+          <div class="navbar-left">
+              <a href="index.html" class="logo"><img src="..." alt="Logo"></a>
+              <a href="index.html" class ="title"> STRENGTH N' ME </a>
+          </div>
+          <input id="menu-toggle" type="checkbox" />
+          <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+          </label>
+              <ul class="nav-links">
+                  <li><a href="../index.html">HOME</a></li>
+                  <li><a href="../aboutuspage/aboutus.html">ABOUT</a></li>
+                  <li><a href="../fundraiserpage/fundraiser.html">STORE</a></li>
+                  <li><a href="../eventspage/events.html">EVENTS</a></li>
+                  <li><a href="../contactuspage/contactus.html">CONTACT</a></li>
+              </ul>
+          </div>
         </nav>
         <!-- Header-->
-
         <header class="top-header"> 
             <h1 class="display-4 fw-bolder" style="margin-bottom: 0px;" align = center>Art Fundraiser</h1>
             <p>All proceeds go to our mission to ensure people and families in our community get the resources, help, and love they deserve to find their strength within them.</p>
