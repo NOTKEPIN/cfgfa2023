@@ -11,31 +11,36 @@
     font-weight: 700;
     letter-spacing: 0em;
 }
+.bodycolor{
+    background-color: white;
+}
 
 .desc {
     font-size: 24px;
-    height: 70px;
     margin-top:0cm;
     margin-bottom: 0cm;
-    line-height: 30px;
+    line-height: 40px;
     text-align:center;
     padding: 10px;
     font-family: ‘Asap’, sans-serif;
     letter-spacing: 0em;
+    position: relative;
+    min-height:90px;
 }
 .wrapper {
     margin:0;
+    position: relative;
 }
 .calendar {
     float:left;
     width: 70%;
     overflow: hidden;
+    height: 636px;
 }
 .infobox {
     float:left;
     width: 30%;
     overflow: hidden;
-    
 }
 .info {
     padding-top:1px;
@@ -45,7 +50,13 @@
     text-align:left;
     font-size: 20px;
     background-color:white;
-    height: 636px;
+    max-height: 636px;
     font-family: ‘Asap’, sans-serif;
     letter-spacing: 0em;
+    overflow: scroll;
+}
+@media (max-width: 837px) {
+    .info {
+        max-height:318px;
+    }
 }
