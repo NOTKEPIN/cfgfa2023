@@ -29,18 +29,24 @@
 }
 .wrapper {
     margin:0;
-    position: relative;
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-between;
 }
 .calendar {
-    float:left;
+    /*float:left;*/
     width: 70%;
     overflow: hidden;
     height: 636px;
+    flex: 1;
+    max-width: 70%;
 }
 .infobox {
-    float:left;
+    /*float:left;*/
     width: 30%;
     overflow: hidden;
+    flex: 1;
+    max-width: 30%;
 }
 .info {
     padding-top:1px;
