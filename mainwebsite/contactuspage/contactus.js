@@ -13,11 +13,13 @@ var assistanceForm = document.getElementById('assistanceForm');
 
 volunteerForm.style.display = "none";
 assistanceForm.style.display = "none";
+messageusTab.style.backgroundColor = "#7000BF";
 
 function messageClicked(){
-    messageusTab.style.backgroundColor = "#A7D6D0";
-    volunteerTab.style.backgroundColor = "#D8F2EF";
-    assistanceTab.style.backgroundColor = "#D8F2EF";
+    messageusTab.style.backgroundColor = "#7000BF";
+    volunteerTab.style.backgroundColor = "#9500FF";
+    assistanceTab.style.backgroundColor = "#9500FF"; 
+
 
     connectForm.style.display = "block";
     volunteerForm.style.display = "none";
@@ -25,9 +27,9 @@ function messageClicked(){
 }
 
 function volunteerClicked(){
-    messageusTab.style.backgroundColor = "#D8F2EF";
-    volunteerTab.style.backgroundColor = "#A7D6D0";
-    assistanceTab.style.backgroundColor = "#D8F2EF";
+    messageusTab.style.backgroundColor = "#9500FF";
+    volunteerTab.style.backgroundColor = "#7000BF";
+    assistanceTab.style.backgroundColor = "#9500FF";
 
     connectForm.style.display = "none";
     volunteerForm.style.display = "block";
@@ -35,11 +37,13 @@ function volunteerClicked(){
 }
 
 function assistanceClicked(){
-    messageusTab.style.backgroundColor = "#D8F2EF";
-    volunteerTab.style.backgroundColor = "#D8F2EF";
-    assistanceTab.style.backgroundColor = "#A7D6D0";
+    messageusTab.style.backgroundColor = "#9500FF";
+    volunteerTab.style.backgroundColor = "#9500FF";
+    assistanceTab.style.backgroundColor = "#7000BF";
 
     connectForm.style.display = "none";
     volunteerForm.style.display = "none";
     assistanceForm.style.display = "block";
 }
+
+
