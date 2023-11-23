@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -144,54 +145,61 @@ publishable-key="pk_test_51Nsxi3Gw3d0Jo4GHrlvtG0Am2JqlArVDf7tCCnV5eNTIQfwrssnapY
                     Thank you all for having this event.”</em></p>
             </div>
     </div>
-    <div class="programs">
-        <h2> CURRENT PROGRAMS</h2>
-        <div class="carousel-container-two">
-            <div class="carousel-two">
-                <div class="carousel-inner-two">
-                    <div class="carousel-two-item">
-                        <img src="homepage/assets/obama.jpg" alt="Image 1">
-                        <div class="left">
-                            <div class="carousel-program">Let's Do It Again</div>
-                            <div class="carousel-description">
-                                Let's Do It Again supports men ages 18 and up. 
-                                Whether the men are re-entering society from incarceration, homelessness, or struggling with 
-                                issues in everyday life. Services include job readiness/training and job referrals, etiquette and 
-                                grooming classes, grooming care kits, free clothing and shoes for everyday wear and interview and 
-                                work attire. We also offer parenting classes and peer group sessions to support our participants                                 in voicing concerns, sharing their fears and insecurities, celebrating each new victory, and 
-                                encouraging them to perservere when things do not go as planned. </div>
-                        </div>
-                    </div>
-                    <div class="carousel-two-item">
-                        <img src="homepage/assets/trump.jpeg" alt="Image 2">
-                        <div class="left">
-                            <div class="carousel-program">Hi, Remember Me?</div>
-                            <div class="carousel-description">
-                            Hi, Remember Me? focuses on helping youth participants ages 11-18 who feel forgotten or 
-                            stigmatized by negative protrayals. We help them understand how they show up in today's 
-                            world and empowering them to become who they are meant to be inthe future. This is done 
-                            through group sessions with like-minded youth who want to work to change the narrative. 
-                            We bring guest speakers who share life stories and encourage the youths to be change 
-                            agents for the future. We also teach etiquette classes, budgeting and basic financial 
-                            literacy, grooming, and cooking classes. </div>
-                        </div>
-                    </div>
-                    <div class="carousel-two-item">
-                        <img src="homepage/assets/kermit.jpg" alt="Image 3">
-                        <div class="left">
-                        <div class="carousel-program">Refresh 'N Renew Program</div>
-                        <div class="carousel-description">Refresh 'N Renew offers 6 Community Giveaways throughout 
-                            the year culminating in our Holiday Giveaway in the month of December for the entire family. 
-                            Available items include free clothing, shoes, home items including beds and bedding, decor, furniture. 
-                            Based on availability, kitchenware, health and beauty products, accessories, and baby items.</div>
-                        </div>
-                     </div>
-                </div>
-                <a class="prev" href="javascript:void(0);" onclick="changeSlide(-1)">&#10094;</a>
-                <a class="next" href="javascript:void(0);" onclick="changeSlide(1)">&#10095;</a>
+
+
+    <footer>
+        <div class="footer-custom container-fluid text-dark">
+            
+          <div class="row gx-3 pb-4 pt-4 text-center text-md-start no-margin">
+            <div class="col-12 col-md-3 pt-5 pt-md-2 d-flex justify-content-center px-5 px-md-0">
+                <h2 class = "disclaimer">Disclaimer</h2>
+                <p class = "description2">
+                Strength 'N Me Community Project does not, by policy or practice, discriminate against a person or group on the basis of race, color, religion, gender, sexual orientation, national origin, age, disability, gender identity and expression, marital or military status, or based on any individual’s status in any group or class protected by applicable federal, state, or local law
+                </p>
             </div>
+            <script async
+            src="https://js.stripe.com/v3/buy-button.js">
+          </script>
+            <p class="address">
+                Strength 'N Me C​ommunity Pro​ject, Inc.
+                <br>
+                RS 501(c)(3) Public Charity
+                <br>
+                MBE/WBE
+            </p>
+            <center>
+            <stripe-buy-button
+            buy-button-id="buy_btn_1OCakMIgzItJtMXUXAyZU5iv"
+            publishable-key="pk_live_51Ny45HIgzItJtMXUKy7KCFRQ00pjwJKz6UuaAWwXs65bXDymQbADnHMopByVOi2dGLsG3VqJVHwG4Xw8jRrLL5FK00Zy5MAdjK">
+            </stripe-buy-button>
+            </center>
+            <div class="col-12 col-md-4 pt-4 pt-md-2 text-center">
+                <p class="contact">Contact Us</p>
+                <div class="d-inline-flex">
+                    <a class="social-media" href="https://www.instagram.com/strengthnme_communityproject/" target="_blank">
+                        <img
+                        src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-900x900.png"
+                        alt="Instagram"
+                        style="border: 0"
+                        width=50
+                        height=50
+                        />
+                    </a>
+                    <a class="social-media" href="https://www.facebook.com/StrengthNMe/" target="_blank">
+                        <img
+                        src="https://sweetsavorycafe.com/images/fbicon.png"
+                        alt="Facebook"
+                        style="border: 0"
+                        width=50
+                        height=50
+                        />
+                    </a>
+                </div>
+            </div>
+          </div>
         </div>
-    </div>
+        
+      </footer>
 
     <script src="css/fundraiser.js"></script>
 </body>
