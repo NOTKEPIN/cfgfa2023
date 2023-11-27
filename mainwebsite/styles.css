@@ -1,3 +1,5 @@
+
+
 body {
   font-family: 'Asap';
   margin: 0;
@@ -314,10 +316,62 @@ nav a {
 .testimonials-list-item {
   text-align: center;
   width: 400px;
-  height: 100%;
+  min-height: 500px;
   border: 2px solid #8280ff;
-  padding: 50px;
+  padding: 45px;
   border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.testimonials-first {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.testimonials-second {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.testimonials-third {
+  padding-top: 15px;
+}
+
+
+.donor-section {
+  color: black;
+  background: #8280ff;
+  margin-top: 40;
+}
+
+.thank-you {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+  font-family: 'Asap', sans-serif;
+  justify-content: center;
+}
+
+.donor-row {
+  display: flex;
+  justify-content: center;
+}
+
+.donors {
+  gap: 15px;
+}
+
+.donorpic {
+  width:210px;
+  border: 1px solid white;
+}
+
+
+@media screen and (max-width: 600px) {
+  .donorpics {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .programs{
