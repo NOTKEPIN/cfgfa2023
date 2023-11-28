@@ -166,8 +166,8 @@ nav {
     background-color: #FFD000;
     font-family: 'Asap', sans-serif;
     font-size: 96px;
-    font-weight: normal;
-    line-height: 110px;
+    font-weight: 700;
+    line-height: 300px;
     letter-spacing: 0em;
     text-align: center; 
 }
@@ -213,19 +213,13 @@ hr {
     z-index: 2;
     position: relative;
 }
-.disclaimer {
-    font-family: 'Asap', sans-serif;
-    font-size: 48px;
-    text-align: center;
-    font-weight: normal;
-    }
 .description2 {
     font-family: 'Asap', sans-serif;
     font-size: 160%;
     font-weight: normal;
     line-height: normal;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
 }  
 .address {
     font-family: 'Asap', sans-serif;
@@ -233,7 +227,9 @@ hr {
     font-weight: normal;
     line-height: normal;
     letter-spacing: 0em;
-    text-align: center; 
+    text-align: left; 
+    margin-right: 0;
+    margin-left: 0;
 }
 .contact {
     font-family: 'Asap', sans-serif;
@@ -243,6 +239,16 @@ hr {
     letter-spacing: 0em;
     text-align: center;
 } 
+.donate {
+  text-align:center;
+}
+.footer-bottom {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 0;
+}
 .no-margin {
     margin-right: 0;
     margin-left: 0;
