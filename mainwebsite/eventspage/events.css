@@ -28,25 +28,16 @@
     min-height:90px;
 }
 .wrapper {
-    margin:0;
+    margin:auto;
+    width: 95%;
     /*position: relative;*/
     display: flex;
     justify-content: space-between;
 }
 .calendar {
     /*float:left;*/
-    width: 70%;
-    overflow: hidden;
-    height: 636px;
-    flex: 1;
-    max-width: 70%;
-}
-.infobox {
-    /*float:left;*/
-    width: 30%;
     overflow: hidden;
     flex: 1;
-    max-width: 30%;
 }
 .info {
     padding-top:1px;
