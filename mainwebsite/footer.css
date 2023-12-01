@@ -63,24 +63,27 @@ hr {
     background-color: #000000;
     z-index: 2;
     position: relative;
+    padding: 25px;
 }
 .disclaimer {
     font-family: 'Asap', sans-serif;
-    font-size: 48px;
+    font-size: 16px;
     text-align: center;
     font-weight: normal;
     }
 .description2 {
     font-family: 'Asap', sans-serif;
-    font-size: 160%;
+    font-size: 70%;
     font-weight: normal;
     line-height: normal;
     letter-spacing: 0em;
     text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }  
 .address {
     font-family: 'Asap', sans-serif;
-    font-size: 160%;
+    font-size: 70%;
     font-weight: normal;
     line-height: normal;
     letter-spacing: 0em;
@@ -88,7 +91,7 @@ hr {
 }
 .contact {
     font-family: 'Asap', sans-serif;
-    font-size: 160%;
+    font-size: 70%;
     font-weight: normal;
     line-height: normal;
     letter-spacing: 0em;
@@ -105,6 +108,7 @@ hr {
     align-items: center;
     width: 100%;
 }
+
 
 .social-media {
     margin: 0 10px;
