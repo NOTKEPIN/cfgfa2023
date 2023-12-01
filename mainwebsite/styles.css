@@ -1,5 +1,3 @@
-
-
 body {
   font-family: 'Asap';
   margin: 0;
@@ -338,18 +336,17 @@ nav a {
 }
 
 
+
 .donor-section {
   color: black;
   background: #8280ff;
   margin-top: 40;
 }
 
-.thank-you {
-  text-align: center;
+.donor-section h2 {
   font-size: 24px;
-  margin: 20px 0;
   font-family: 'Asap', sans-serif;
-  justify-content: center;
+  
 }
 
 .donor-row {
@@ -358,12 +355,51 @@ nav a {
 }
 
 .donors {
-  gap: 15px;
+  padding: 1;
 }
 
-.donorpic {
-  width:210px;
+.donorpic1 {
+  width:190px;
   border: 1px solid white;
+  position: relative;
+  padding: 10px;
+  right: 20px;
+  bottom: 40px;
+}
+
+.donorpic2 {  
+  width:170px;
+  border: 1px solid white;
+  padding: 25px;
+  position: relative;
+  bottom: 60px;
+  right: 25px;
+}
+
+.donorpic3 {
+  width:180px;
+  border: 1px solid white;
+  padding: 15px;
+  position: relative;
+  bottom: 80px;
+  right: 25px;
+}
+
+.donorpic4 {
+  width:125px;
+  border: 1px solid white;
+  padding: 25px;
+  position: relative;
+  right: 5px;
+  bottom: 35px;
+}
+
+.donorpic5 {
+  width: 130px;
+  border: 1px solid white;
+  padding: 30px;
+  position: relative;
+  bottom: 45px;
 }
 
 
