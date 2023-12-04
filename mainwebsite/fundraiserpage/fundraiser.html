@@ -9,10 +9,12 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+  <header>
+  <div id="nav-placeholder">
     <nav>
         <div class="navbar-left">
-            <a href="index.html" class="logo"><img src="..." alt="Logo"></a>
-            <a href="index.html" class ="title"> STRENGTH N' ME </a>
+            <a href="../index.html" class="logo"><img src="..." alt="Logo"></a>
+            <a href="../index.html" class ="title"> STRENGTH N' ME </a>
         </div>
         <input id="menu-toggle" type="checkbox" />
         <label class='menu-button-container' for="menu-toggle">
@@ -27,14 +29,13 @@
             </ul>
         </div>
     </nav>
-    <header>
-        <div id="nav-placeholder"></div>
-            <script>
-            $(function(){
-            $("#nav-placeholder").load("homepage/nav.html");
-            });
-            </script>
-    </header>
+</div>
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("homepage/nav.html");
+    });
+    </script>
+</header>
     <p class="header"> STORE </p>
 
         <!-- Section-->
