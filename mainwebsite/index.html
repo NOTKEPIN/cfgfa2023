@@ -7,6 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/shoelace-autoloader.js"></script>
+
 </head>
 <body>
     <header>
@@ -54,19 +57,38 @@
         <h2> OUR TEAM </h2>
         <div class="carousel-container-one">
             <div class="carousel-one">
-                <div class="carousel-inner-one">
-                    <div class="carousel-one-item">
-                        <img src="homepage/assets/obama.jpg" alt="Image 1">
-                    </div>
-                    <div class="carousel-one-item">
-                        <img src="homepage/assets/trump.jpeg" alt="Image 2">
-                    </div>
-                    <div class="carousel-one-item">
-                        <img src="homepage/assets/kermit.jpg" alt="Image 3">
-                    </div>
-                </div>
-                <a class="back" href="javascript:void(0);" onclick="changeSlide(-1)">&#10094;</a>
-                <a class="forward" href="javascript:void(0);" onclick="changeSlide(1)">&#10095;</a>
+                <sl-carousel navigation>
+                    <sl-carousel-item>
+                      <img
+                        alt="The sun shines on the mountains and trees (by Adam Kool on Unsplash)"
+                        src="homepage/assets/kermit.jpg"
+                      />
+                    </sl-carousel-item>
+                    <sl-carousel-item>
+                      <img
+                        alt="A waterfall in the middle of a forest (by Thomas Kelly on Unsplash)"
+                        src="homepage/assets/trump.jpeg"
+                      />
+                    </sl-carousel-item>
+                    <sl-carousel-item>
+                      <img
+                        alt="The sun is setting over a lavender field (by Leonard Cotte on Unsplash)"
+                        src="homepage/assets/kermit.jpg"
+                      />
+                    </sl-carousel-item>
+                    <sl-carousel-item>
+                      <img
+                        alt="A field of grass with the sun setting in the background (by Sapan Patel on Unsplash)"
+                        src="homepage/assets/trump.jpeg"
+                      />
+                    </sl-carousel-item>
+                    <sl-carousel-item>
+                      <img
+                        alt="A scenic view of a mountain with clouds rolling in (by V2osk on Unsplash)"
+                        src="homepage/assets/obama.jpg"
+                      />
+                    </sl-carousel-item>
+                  </sl-carousel>
             </div>
         </div>
     </div>
@@ -126,51 +148,63 @@
     
     <div class="programs">
         <h2> CURRENT PROGRAMS</h2>
-        <div class="carousel-container-two">
-            <div class="carousel-two">
-                <div class="carousel-inner-two">
-                    <div class="carousel-two-item">
-                        <img src="homepage/assets/obama.jpg" alt="Image 1">
-                        <div class="left">
-                            <div class="carousel-program">Let's Do It Again</div>
-                            <div class="carousel-description">
-                                Let's Do It Again supports men ages 18 and up. 
-                                Whether the men are re-entering society from incarceration, homelessness, or struggling with 
-                                issues in everyday life. Services include job readiness/training and job referrals, etiquette and 
-                                grooming classes, grooming care kits, free clothing and shoes for everyday wear and interview and 
-                                work attire. We also offer parenting classes and peer group sessions to support our participants                                 in voicing concerns, sharing their fears and insecurities, celebrating each new victory, and 
-                                encouraging them to perservere when things do not go as planned. </div>
-                        </div>
-                    </div>
-                    <div class="carousel-two-item">
-                        <img src="homepage/assets/trump.jpeg" alt="Image 2">
-                        <div class="left">
-                            <div class="carousel-program">Hi, Remember Me?</div>
-                            <div class="carousel-description">
-                            Hi, Remember Me? focuses on helping youth participants ages 11-18 who feel forgotten or 
-                            stigmatized by negative protrayals. We help them understand how they show up in today's 
-                            world and empowering them to become who they are meant to be inthe future. This is done 
-                            through group sessions with like-minded youth who want to work to change the narrative. 
-                            We bring guest speakers who share life stories and encourage the youths to be change 
-                            agents for the future. We also teach etiquette classes, budgeting and basic financial 
-                            literacy, grooming, and cooking classes. </div>
-                        </div>
-                    </div>
-                    <div class="carousel-two-item">
-                        <img src="homepage/assets/kermit.jpg" alt="Image 3">
-                        <div class="left">
-                        <div class="carousel-program">Refresh 'N Renew Program</div>
-                        <div class="carousel-description">Refresh 'N Renew offers 6 Community Giveaways throughout 
-                            the year culminating in our Holiday Giveaway in the month of December for the entire family. 
-                            Available items include free clothing, shoes, home items including beds and bedding, decor, furniture. 
-                            Based on availability, kitchenware, health and beauty products, accessories, and baby items.</div>
-                        </div>
-                     </div>
-                </div>
-                <a class="prev" href="javascript:void(0);" onclick="changeSlide(-1)">&#10094;</a>
-                <a class="next" href="javascript:void(0);" onclick="changeSlide(1)">&#10095;</a>
+
+
+        <div class="slider" style="height: 60%;">
+            <input type="radio" name="toggle" id="btn-1" checked>
+            <input type="radio" name="toggle" id="btn-2">
+            <input type="radio" name="toggle" id="btn-3">
+          
+            <div class="slider-controls">
+              <label for="btn-1"></label>
+              <label for="btn-2"></label>
+              <label for="btn-3"></label>
             </div>
-        </div>
+          
+            <ul class="slides">
+              <li class="slide">
+                <div class="slide-content">
+                  <h2 class="slide-title">Let's Do It Again</h2>
+                  <p class="slide-text">Let's Do It Again supports men ages 18 and up. 
+                    Whether the men are re-entering society from incarceration, homelessness, or struggling with 
+                    issues in everyday life. Services include job readiness/training and job referrals, etiquette and 
+                    grooming classes, grooming care kits, free clothing and shoes for everyday wear and interview and 
+                    work attire. We also offer parenting classes and peer group sessions to support our participants                                 in voicing concerns, sharing their fears and insecurities, celebrating each new victory, and 
+                    encouraging them to perservere when things do not go as planned.</p>
+                </div>
+                <p class="slide-image">
+                    <img src="homepage/assets/kermit.jpg" alt="stuff" width="320" height="240" style="left: 0px;right: 0px;top: 0px;">
+                    </p>            
+              </li>
+              <li class="slide">
+                <div class="slide-content">
+                  <h2 class="slide-title">Hi, Remember Me?</h2>
+                  <p class="slide-text">Hi, Remember Me? focuses on helping youth participants ages 11-18 who feel forgotten or 
+                    stigmatized by negative protrayals. We help them understand how they show up in today's 
+                    world and empowering them to become who they are meant to be inthe future. This is done 
+                    through group sessions with like-minded youth who want to work to change the narrative. 
+                    We bring guest speakers who share life stories and encourage the youths to be change 
+                    agents for the future. We also teach etiquette classes, budgeting and basic financial 
+                    literacy, grooming, and cooking classes.</p>
+                </div>
+                <p class="slide-image">
+                    <img src="homepage/assets/kermit.jpg" alt="stuff" width="320" height="240" style="left: 0px;right: 0px;top: 0px;">
+                    </p> 
+              </li>
+              <li class="slide" style="background-image:'homepage/assets/kermit.jpg';">
+                <div class="slide-content">
+                  <h2 class="slide-title">Refresh 'N Renew</h2>
+                  <p class="slide-text">Refresh 'N Renew offers 6 Community Giveaways throughout 
+                    the year culminating in our Holiday Giveaway in the month of December for the entire family. 
+                    Available items include free clothing, shoes, home items including beds and bedding, decor, furniture. 
+                    Based on availability, kitchenware, health and beauty products, accessories, and baby items.</p>
+                  </div>
+                  <p class="slide-image">
+                    <img src="homepage/assets/kermit.jpg" alt="stuff" width="320" height="240" style="left: 0px;right: 0px;top: 0px;">
+                    </p> 
+              </li>
+            </ul>
+          </div>
     </div>
     <footer>
         <div class="footer-custom container-fluid text-dark">
@@ -221,7 +255,7 @@
           </div>
         </div>
       </footer>
-
+      
     <script src="index.js"></script>
 </body>
 </html>
